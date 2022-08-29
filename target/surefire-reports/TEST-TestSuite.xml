@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="85.176" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/sumitrusia/eclipse-workspace/SwiggyProject/target/test-classes:/Users/sumitrusia/eclipse-workspace/SwiggyProject/target/classes:/Users/sumitrusia/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/sumitrusia/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/sumitrusia/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/sumitrusia/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/sumitrusia/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/sumitrusia/.m2/repository/io/appium/java-client/7.4.1/java-client-7.4.1.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/sumitrusia/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/sumitrusia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/sumitrusia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/sumitrusia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/sumitrusia/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/sumitrusia/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/sumitrusia/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/sumitrusia/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/sumitrusia/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/sumitrusia/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/sumitrusia/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/sumitrusia/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/sumitrusia/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/sumitrusia/.m2/repository/org/springframework/spring-context/5.3.1/spring-context-5.3.1.jar:/Users/sumitrusia/.m2/repository/org/springframework/spring-aop/5.3.1/spring-aop-5.3.1.jar:/Users/sumitrusia/.m2/repository/org/springframework/spring-beans/5.3.1/spring-beans-5.3.1.jar:/Users/sumitrusia/.m2/repository/org/springframework/spring-core/5.3.1/spring-core-5.3.1.jar:/Users/sumitrusia/.m2/repository/org/springframework/spring-jcl/5.3.1/spring-jcl-5.3.1.jar:/Users/sumitrusia/.m2/repository/org/springframework/spring-expression/5.3.1/spring-expression-5.3.1.jar:/Users/sumitrusia/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/sumitrusia/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/sumitrusia/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/sumitrusia/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/sumitrusia/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/sumitrusia/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/sumitrusia/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/sumitrusia/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/sumitrusia/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/sumitrusia/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Dublin"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IE"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/sumitrusia/eclipse-workspace/SwiggyProject/target/surefire/surefirebooter7577514569645995533.jar /Users/sumitrusia/eclipse-workspace/SwiggyProject/target/surefire 2022-08-29T22-24-37_117-jvmRun1 surefire12491869843376370661tmp surefire_03122818667795796112tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/sumitrusia/eclipse-workspace/SwiggyProject/target/test-classes:/Users/sumitrusia/eclipse-workspace/SwiggyProject/target/classes:/Users/sumitrusia/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/sumitrusia/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/sumitrusia/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/sumitrusia/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/sumitrusia/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/sumitrusia/.m2/repository/io/appium/java-client/7.4.1/java-client-7.4.1.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/sumitrusia/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/sumitrusia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/sumitrusia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/sumitrusia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/sumitrusia/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/sumitrusia/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/sumitrusia/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/sumitrusia/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/sumitrusia/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/sumitrusia/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/sumitrusia/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/sumitrusia/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/sumitrusia/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/sumitrusia/.m2/repository/org/springframework/spring-context/5.3.1/spring-context-5.3.1.jar:/Users/sumitrusia/.m2/repository/org/springframework/spring-aop/5.3.1/spring-aop-5.3.1.jar:/Users/sumitrusia/.m2/repository/org/springframework/spring-beans/5.3.1/spring-beans-5.3.1.jar:/Users/sumitrusia/.m2/repository/org/springframework/spring-core/5.3.1/spring-core-5.3.1.jar:/Users/sumitrusia/.m2/repository/org/springframework/spring-jcl/5.3.1/spring-jcl-5.3.1.jar:/Users/sumitrusia/.m2/repository/org/springframework/spring-expression/5.3.1/spring-expression-5.3.1.jar:/Users/sumitrusia/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/sumitrusia/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/sumitrusia/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/sumitrusia/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/sumitrusia/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/sumitrusia/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/sumitrusia/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/sumitrusia/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/sumitrusia/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/sumitrusia/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/sumitrusia/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/sumitrusia"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/sumitrusia/eclipse-workspace/SwiggyProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/sumitrusia/eclipse-workspace/SwiggyProject/target/surefire/surefirebooter7577514569645995533.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.13+8-LTS"/>
+    <property name="user.name" value="sumitrusia"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.13.8.1"/>
+    <property name="localRepository" value="/Users/sumitrusia/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="/var/folders/sg/l34gtvd54m938qygzlm2fw3m0000gn/T/"/>
+    <property name="java.version" value="11.0.13"/>
+    <property name="user.dir" value="/Users/sumitrusia/eclipse-workspace/SwiggyProject"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/sumitrusia/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.13+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="ChangingLocation" classname="com.swiggy.SwiggyProject.SwiggyApp" time="8.54">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Aug 29, 2022 10:24:51 P.M. io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="SearchPlusAdd" classname="com.swiggy.SwiggyProject.SwiggyApp" time="12.929">
+    <system-err><![CDATA[Aug 29, 2022 10:25:28 P.M. io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
